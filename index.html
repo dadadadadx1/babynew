@@ -19,6 +19,13 @@
 
   <body>
     <div id="root"></div>
+    <script>
+      // GitHub Pages SPA redirect recovery
+      if (sessionStorage.redirect) {
+        history.replaceState(null, null, sessionStorage.redirect);
+        delete sessionStorage.redirect;
+      }
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
