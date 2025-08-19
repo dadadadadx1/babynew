@@ -121,6 +121,9 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
     background: var(--gradient-main);
     min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
   }
   
   .gradient-pink {
