@@ -17,7 +17,7 @@ const Index = () => {
           variant="babykk_buy" 
           size="xl"
           className="w-80 h-20 text-3xl font-black tracking-wider"
-          onClick={() => console.log("Buy clicked")}
+          onClick={() => window.open("https://t.me/babykk010", "_blank")}
         >
           BUY
         </Button>
@@ -26,7 +26,7 @@ const Index = () => {
           variant="babykk_preview" 
           size="xl"
           className="w-80 h-20 text-3xl font-black tracking-wider"
-          onClick={() => console.log("Free previews clicked")}
+          onClick={() => window.open("https://t.me/babykk010", "_blank")}
         >
           FREE PREVIEWS
         </Button>
